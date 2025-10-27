@@ -1,0 +1,132 @@
+================================================================================
+  K-CoolHeatSim - Instruções para Windows
+================================================================================
+
+PROBLEMA: Página em branco ao abrir index.html diretamente
+
+CAUSA: Browsers modernos bloqueiam módulos JavaScript ES6 quando abertos
+       via file:// por segurança.
+
+SOLUÇÃO: Usar um servidor local simples
+
+================================================================================
+  MÉTODO 1: Usar o ficheiro ABRIR_APLICACAO.bat (MAIS FÁCIL)
+================================================================================
+
+1. Clique duplo em: ABRIR_APLICACAO.bat
+2. O servidor iniciará automaticamente
+3. O browser abrirá em http://localhost:8000
+4. A aplicação funcionará perfeitamente!
+
+REQUISITO: Python instalado (vem com Windows 10/11 ou instale de python.org)
+
+================================================================================
+  MÉTODO 2: Usar Python manualmente
+================================================================================
+
+1. Abra o Prompt de Comando (cmd) nesta pasta
+   - Shift + Clique direito na pasta → "Abrir janela do PowerShell aqui"
+   - Ou "Abrir janela de comando aqui"
+
+2. Execute um destes comandos:
+
+   Python 3:
+   python -m http.server 8000
+
+   Python 2:
+   python -m SimpleHTTPServer 8000
+
+3. Abra o browser em: http://localhost:8000
+
+4. Para parar: Ctrl+C no terminal
+
+================================================================================
+  MÉTODO 3: Usar Node.js (se tiver instalado)
+================================================================================
+
+1. Instale http-server globalmente:
+   npm install -g http-server
+
+2. Na pasta da aplicação, execute:
+   http-server -p 8000
+
+3. Abra: http://localhost:8000
+
+================================================================================
+  MÉTODO 4: Usar extensão do VS Code
+================================================================================
+
+Se usar Visual Studio Code:
+
+1. Instale a extensão "Live Server"
+2. Clique direito em index.html
+3. Selecione "Open with Live Server"
+
+================================================================================
+  MÉTODO 5: Usar XAMPP, WAMP ou outro servidor local
+================================================================================
+
+1. Instale XAMPP (https://www.apachefriends.org/)
+2. Copie a pasta k-coolheatsim-final para C:\xampp\htdocs\
+3. Inicie o Apache no XAMPP Control Panel
+4. Aceda a: http://localhost/k-coolheatsim-final/
+
+================================================================================
+  MÉTODO 6: Publicar no GitHub Pages (RECOMENDADO)
+================================================================================
+
+A forma mais fácil é publicar no GitHub Pages (GRÁTIS):
+
+1. Crie conta no GitHub (se não tiver)
+2. Crie novo repositório
+3. Faça upload de todos os ficheiros
+4. Ative GitHub Pages em Settings → Pages
+5. Aceda ao URL público: https://seu-usuario.github.io/k-coolheatsim/
+
+Vantagens:
+✓ Funciona em qualquer dispositivo
+✓ Pode partilhar o link com clientes
+✓ Sempre disponível online
+✓ Grátis para sempre
+
+================================================================================
+  RESOLUÇÃO DE PROBLEMAS
+================================================================================
+
+PROBLEMA: "Python não é reconhecido como comando"
+SOLUÇÃO: Instale Python de https://www.python.org/downloads/
+         Durante instalação, marque "Add Python to PATH"
+
+PROBLEMA: Porta 8000 já está em uso
+SOLUÇÃO: Use outra porta: python -m http.server 8080
+         Depois aceda a: http://localhost:8080
+
+PROBLEMA: Firewall bloqueia
+SOLUÇÃO: Permita Python/Node.js no Firewall do Windows
+         Ou use http://127.0.0.1:8000 em vez de localhost
+
+================================================================================
+  VERIFICAÇÃO
+================================================================================
+
+Quando a aplicação carregar corretamente, deve ver:
+
+1. Logo K-CoolHeatSim
+2. Texto "Simulador de Eficiência Energética"
+3. Versão 1.0.0
+4. Botão "Seguinte"
+
+Se vir isto, está tudo a funcionar! 🚀
+
+================================================================================
+  SUPORTE
+================================================================================
+
+Se continuar com problemas:
+1. Verifique se tem Python instalado: python --version
+2. Tente abrir em diferentes browsers (Chrome, Firefox, Edge)
+3. Desative extensões do browser temporariamente
+4. Limpe cache do browser (Ctrl+Shift+Delete)
+
+================================================================================
+
