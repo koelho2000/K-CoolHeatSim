@@ -1,0 +1,338 @@
+{
+  "paredes": [
+    {
+      "id": 1,
+      "nome": "Parede Simples Tijolo Cerâmico 15cm",
+      "descricao": "Reboco + Tijolo 15cm + Reboco",
+      "u_value": 1.80,
+      "espessura": 0.20
+    },
+    {
+      "id": 2,
+      "nome": "Parede Dupla Tijolo Cerâmico 11+15cm",
+      "descricao": "Reboco + Tijolo 11cm + Caixa de ar 4cm + Tijolo 15cm + Reboco",
+      "u_value": 0.85,
+      "espessura": 0.35
+    },
+    {
+      "id": 3,
+      "nome": "Parede Tijolo com EPS 5cm",
+      "descricao": "Reboco + Tijolo 15cm + EPS 5cm + Reboco",
+      "u_value": 0.52,
+      "espessura": 0.25
+    },
+    {
+      "id": 4,
+      "nome": "Parede Tijolo com XPS 6cm",
+      "descricao": "Reboco + Tijolo 15cm + XPS 6cm + Reboco",
+      "u_value": 0.42,
+      "espessura": 0.26
+    },
+    {
+      "id": 5,
+      "nome": "Parede Tijolo com Lã Mineral 8cm",
+      "descricao": "Reboco + Tijolo 15cm + Lã Mineral 8cm + Pladur",
+      "u_value": 0.38,
+      "espessura": 0.28
+    },
+    {
+      "id": 6,
+      "nome": "Parede ETICS EPS 10cm",
+      "descricao": "Reboco + Tijolo 15cm + ETICS EPS 10cm",
+      "u_value": 0.30,
+      "espessura": 0.30
+    },
+    {
+      "id": 7,
+      "nome": "Parede ETICS XPS 12cm",
+      "descricao": "Reboco + Tijolo 15cm + ETICS XPS 12cm",
+      "u_value": 0.25,
+      "espessura": 0.32
+    },
+    {
+      "id": 8,
+      "nome": "Parede Betão 20cm com EPS 8cm",
+      "descricao": "Reboco + Betão 20cm + EPS 8cm + Reboco",
+      "u_value": 0.35,
+      "espessura": 0.33
+    },
+    {
+      "id": 9,
+      "nome": "Parede Alvenaria de Pedra 40cm",
+      "descricao": "Reboco + Alvenaria Pedra 40cm + Reboco",
+      "u_value": 1.60,
+      "espessura": 0.45
+    },
+    {
+      "id": 10,
+      "nome": "Parede Passivhaus (U<0.15)",
+      "descricao": "Reboco + Tijolo 15cm + EPS 20cm + Reboco",
+      "u_value": 0.15,
+      "espessura": 0.40
+    }
+  ],
+  "pavimentos": [
+    {
+      "id": 1,
+      "nome": "Pavimento Térreo Simples",
+      "descricao": "Betonilha 5cm + Laje betão 15cm",
+      "u_value": 2.20,
+      "espessura": 0.20
+    },
+    {
+      "id": 2,
+      "nome": "Pavimento Térreo com EPS 3cm",
+      "descricao": "Soalho + Betonilha 5cm + EPS 3cm + Laje 15cm",
+      "u_value": 0.75,
+      "espessura": 0.25
+    },
+    {
+      "id": 3,
+      "nome": "Pavimento Térreo com XPS 5cm",
+      "descricao": "Soalho + Betonilha 5cm + XPS 5cm + Laje 15cm",
+      "u_value": 0.52,
+      "espessura": 0.27
+    },
+    {
+      "id": 4,
+      "nome": "Pavimento Térreo com EPS 8cm",
+      "descricao": "Soalho + Betonilha 5cm + EPS 8cm + Laje 15cm",
+      "u_value": 0.38,
+      "espessura": 0.30
+    },
+    {
+      "id": 5,
+      "nome": "Pavimento Térreo com XPS 10cm",
+      "descricao": "Soalho + Betonilha 5cm + XPS 10cm + Laje 15cm",
+      "u_value": 0.30,
+      "espessura": 0.32
+    },
+    {
+      "id": 6,
+      "nome": "Pavimento Intermédio Laje 20cm",
+      "descricao": "Soalho + Betonilha 5cm + Laje 20cm + Estuque",
+      "u_value": 2.50,
+      "espessura": 0.27
+    },
+    {
+      "id": 7,
+      "nome": "Pavimento Intermédio com Isolamento 4cm",
+      "descricao": "Soalho + Betonilha 5cm + EPS 4cm + Laje 20cm + Estuque",
+      "u_value": 0.65,
+      "espessura": 0.31
+    },
+    {
+      "id": 8,
+      "nome": "Pavimento sobre Exterior com EPS 10cm",
+      "descricao": "Soalho + Betonilha 5cm + EPS 10cm + Laje 20cm + Estuque",
+      "u_value": 0.28,
+      "espessura": 0.37
+    },
+    {
+      "id": 9,
+      "nome": "Pavimento Ventilado",
+      "descricao": "Soalho + Caixa de ar 20cm + Laje 15cm",
+      "u_value": 1.20,
+      "espessura": 0.37
+    },
+    {
+      "id": 10,
+      "nome": "Pavimento Passivhaus (U<0.15)",
+      "descricao": "Soalho + Betonilha 5cm + XPS 15cm + Laje 20cm",
+      "u_value": 0.15,
+      "espessura": 0.42
+    }
+  ],
+  "coberturas": [
+    {
+      "id": 1,
+      "nome": "Cobertura Inclinada Telha Cerâmica",
+      "descricao": "Telha + Caixa de ar + Laje 15cm + Estuque",
+      "u_value": 1.85,
+      "espessura": 0.35
+    },
+    {
+      "id": 2,
+      "nome": "Cobertura Inclinada com Lã Mineral 6cm",
+      "descricao": "Telha + Caixa de ar + Lã Mineral 6cm + Laje 15cm + Estuque",
+      "u_value": 0.52,
+      "espessura": 0.41
+    },
+    {
+      "id": 3,
+      "nome": "Cobertura Inclinada com Lã Mineral 10cm",
+      "descricao": "Telha + Caixa de ar + Lã Mineral 10cm + Laje 15cm + Estuque",
+      "u_value": 0.32,
+      "espessura": 0.45
+    },
+    {
+      "id": 4,
+      "nome": "Cobertura Inclinada com XPS 8cm",
+      "descricao": "Telha + Caixa de ar + XPS 8cm + Laje 15cm + Estuque",
+      "u_value": 0.38,
+      "espessura": 0.43
+    },
+    {
+      "id": 5,
+      "nome": "Cobertura Plana Invertida EPS 6cm",
+      "descricao": "Proteção pesada + EPS 6cm + Impermeabilização + Laje 20cm + Estuque",
+      "u_value": 0.48,
+      "espessura": 0.30
+    },
+    {
+      "id": 6,
+      "nome": "Cobertura Plana Invertida XPS 10cm",
+      "descricao": "Proteção pesada + XPS 10cm + Impermeabilização + Laje 20cm + Estuque",
+      "u_value": 0.28,
+      "espessura": 0.34
+    },
+    {
+      "id": 7,
+      "nome": "Cobertura Plana Tradicional EPS 8cm",
+      "descricao": "Impermeabilização + EPS 8cm + Laje 20cm + Estuque",
+      "u_value": 0.35,
+      "espessura": 0.30
+    },
+    {
+      "id": 8,
+      "nome": "Cobertura Verde Extensiva",
+      "descricao": "Vegetação + Substrato 10cm + Drenagem + Impermeabilização + EPS 10cm + Laje 20cm",
+      "u_value": 0.25,
+      "espessura": 0.45
+    },
+    {
+      "id": 9,
+      "nome": "Cobertura Inclinada com Lã Mineral 15cm",
+      "descricao": "Telha + Caixa de ar + Lã Mineral 15cm + Laje 15cm + Estuque",
+      "u_value": 0.22,
+      "espessura": 0.50
+    },
+    {
+      "id": 10,
+      "nome": "Cobertura Passivhaus (U<0.15)",
+      "descricao": "Telha + Caixa de ar + Lã Mineral 20cm + Laje 15cm + Estuque",
+      "u_value": 0.15,
+      "espessura": 0.55
+    }
+  ],
+  "envidracados": [
+    {
+      "id": 1,
+      "nome": "Vidro Simples 4mm + Caixilharia Alumínio",
+      "descricao": "Vidro simples 4mm, caixilharia alumínio sem corte térmico",
+      "u_value": 5.70,
+      "g_value": 0.85,
+      "transmitancia_luminosa": 0.90
+    },
+    {
+      "id": 2,
+      "nome": "Vidro Duplo 4-6-4 + Alumínio sem CT",
+      "descricao": "Vidro duplo 4-6-4mm, caixilharia alumínio sem corte térmico",
+      "u_value": 3.30,
+      "g_value": 0.75,
+      "transmitancia_luminosa": 0.81
+    },
+    {
+      "id": 3,
+      "nome": "Vidro Duplo 4-12-4 + Alumínio com CT",
+      "descricao": "Vidro duplo 4-12-4mm, caixilharia alumínio com corte térmico",
+      "u_value": 2.80,
+      "g_value": 0.75,
+      "transmitancia_luminosa": 0.81
+    },
+    {
+      "id": 4,
+      "nome": "Vidro Duplo 4-16-4 + PVC",
+      "descricao": "Vidro duplo 4-16-4mm, caixilharia PVC",
+      "u_value": 2.60,
+      "g_value": 0.75,
+      "transmitancia_luminosa": 0.81
+    },
+    {
+      "id": 5,
+      "nome": "Vidro Duplo Baixo Emissivo + PVC",
+      "descricao": "Vidro duplo 4-16-4mm baixo emissivo, caixilharia PVC",
+      "u_value": 1.80,
+      "g_value": 0.60,
+      "transmitancia_luminosa": 0.75
+    },
+    {
+      "id": 6,
+      "nome": "Vidro Duplo Baixo Emissivo + Argon + PVC",
+      "descricao": "Vidro duplo 4-16-4mm baixo emissivo com argon, caixilharia PVC",
+      "u_value": 1.40,
+      "g_value": 0.60,
+      "transmitancia_luminosa": 0.75
+    },
+    {
+      "id": 7,
+      "nome": "Vidro Triplo 4-12-4-12-4 + PVC",
+      "descricao": "Vidro triplo 4-12-4-12-4mm, caixilharia PVC",
+      "u_value": 1.80,
+      "g_value": 0.70,
+      "transmitancia_luminosa": 0.74
+    },
+    {
+      "id": 8,
+      "nome": "Vidro Triplo Baixo Emissivo + Argon + PVC",
+      "descricao": "Vidro triplo 4-14-4-14-4mm baixo emissivo com argon, caixilharia PVC",
+      "u_value": 0.90,
+      "g_value": 0.50,
+      "transmitancia_luminosa": 0.70
+    },
+    {
+      "id": 9,
+      "nome": "Vidro Triplo Baixo Emissivo + Krypton + Madeira",
+      "descricao": "Vidro triplo 4-12-4-12-4mm baixo emissivo com krypton, caixilharia madeira",
+      "u_value": 0.70,
+      "g_value": 0.50,
+      "transmitancia_luminosa": 0.70
+    },
+    {
+      "id": 10,
+      "nome": "Vidro Passivhaus (U<0.80)",
+      "descricao": "Vidro triplo 4-16-4-16-4mm baixo emissivo duplo com krypton, caixilharia PVC reforçada",
+      "u_value": 0.60,
+      "g_value": 0.50,
+      "transmitancia_luminosa": 0.68
+    }
+  ],
+  "infiltracoes": [
+    {
+      "nivel": "Alta",
+      "descricao": "Edifício antigo sem estanquidade, juntas degradadas",
+      "rph": 1.5,
+      "n50": 15.0,
+      "caudal_m3h_m2": 12.0
+    },
+    {
+      "nivel": "Média",
+      "descricao": "Edifício convencional, estanquidade normal",
+      "rph": 0.8,
+      "n50": 8.0,
+      "caudal_m3h_m2": 6.4
+    },
+    {
+      "nivel": "Baixa",
+      "descricao": "Edifício eficiente, boa estanquidade",
+      "rph": 0.4,
+      "n50": 4.0,
+      "caudal_m3h_m2": 3.2
+    },
+    {
+      "nivel": "Muito Baixa",
+      "descricao": "Edifício de elevada eficiência (NZEB)",
+      "rph": 0.2,
+      "n50": 2.0,
+      "caudal_m3h_m2": 1.6
+    },
+    {
+      "nivel": "Passivhaus",
+      "descricao": "Edifício passivo certificado",
+      "rph": 0.1,
+      "n50": 0.6,
+      "caudal_m3h_m2": 0.48
+    }
+  ]
+}
+

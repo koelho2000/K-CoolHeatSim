@@ -1,0 +1,97 @@
+{
+  "portugal_districts": {
+    "Aveiro": {"temp": 14.5, "humidity": 75, "radiation": 4.2, "precipitation": 1200},
+    "Beja": {"temp": 16.5, "humidity": 65, "radiation": 5.1, "precipitation": 550},
+    "Braga": {"temp": 14.0, "humidity": 78, "radiation": 4.0, "precipitation": 1400},
+    "Bragança": {"temp": 12.5, "humidity": 70, "radiation": 4.3, "precipitation": 750},
+    "Castelo Branco": {"temp": 15.5, "humidity": 68, "radiation": 4.8, "precipitation": 900},
+    "Coimbra": {"temp": 15.0, "humidity": 73, "radiation": 4.4, "precipitation": 1000},
+    "Évora": {"temp": 16.0, "humidity": 66, "radiation": 5.0, "precipitation": 600},
+    "Faro": {"temp": 17.5, "humidity": 70, "radiation": 5.3, "precipitation": 500},
+    "Guarda": {"temp": 11.5, "humidity": 72, "radiation": 4.2, "precipitation": 1100},
+    "Leiria": {"temp": 15.5, "humidity": 74, "radiation": 4.5, "precipitation": 900},
+    "Lisboa": {"temp": 17.0, "humidity": 72, "radiation": 4.9, "precipitation": 750},
+    "Portalegre": {"temp": 15.0, "humidity": 67, "radiation": 4.7, "precipitation": 700},
+    "Porto": {"temp": 14.5, "humidity": 76, "radiation": 4.1, "precipitation": 1200},
+    "Santarém": {"temp": 16.0, "humidity": 71, "radiation": 4.7, "precipitation": 700},
+    "Setúbal": {"temp": 16.5, "humidity": 73, "radiation": 4.9, "precipitation": 650},
+    "Viana do Castelo": {"temp": 14.0, "humidity": 77, "radiation": 4.0, "precipitation": 1300},
+    "Vila Real": {"temp": 13.5, "humidity": 71, "radiation": 4.3, "precipitation": 1000},
+    "Viseu": {"temp": 13.0, "humidity": 73, "radiation": 4.2, "precipitation": 1100},
+    "Açores": {"temp": 17.0, "humidity": 80, "radiation": 3.8, "precipitation": 1000},
+    "Madeira": {"temp": 19.0, "humidity": 75, "radiation": 4.6, "precipitation": 600}
+  },
+  "europe_capitals": {
+    "Lisboa, Portugal": {"temp": 17.0, "humidity": 72, "radiation": 4.9, "precipitation": 750},
+    "Madrid, Espanha": {"temp": 15.0, "humidity": 57, "radiation": 5.2, "precipitation": 435},
+    "Paris, França": {"temp": 12.0, "humidity": 76, "radiation": 3.5, "precipitation": 640},
+    "Londres, Reino Unido": {"temp": 11.0, "humidity": 78, "radiation": 3.0, "precipitation": 690},
+    "Berlim, Alemanha": {"temp": 10.0, "humidity": 73, "radiation": 3.3, "precipitation": 570},
+    "Roma, Itália": {"temp": 15.5, "humidity": 72, "radiation": 4.8, "precipitation": 880},
+    "Atenas, Grécia": {"temp": 18.5, "humidity": 63, "radiation": 5.5, "precipitation": 400},
+    "Amesterdão, Países Baixos": {"temp": 10.5, "humidity": 81, "radiation": 3.1, "precipitation": 850},
+    "Bruxelas, Bélgica": {"temp": 10.5, "humidity": 79, "radiation": 3.2, "precipitation": 820},
+    "Viena, Áustria": {"temp": 10.5, "humidity": 70, "radiation": 3.8, "precipitation": 660}
+  },
+  "africa_capitals": {
+    "Cairo, Egito": {"temp": 22.0, "humidity": 56, "radiation": 6.5, "precipitation": 25},
+    "Lagos, Nigéria": {"temp": 27.0, "humidity": 80, "radiation": 5.0, "precipitation": 1600},
+    "Kinshasa, RD Congo": {"temp": 25.5, "humidity": 77, "radiation": 4.8, "precipitation": 1400},
+    "Joanesburgo, África do Sul": {"temp": 15.5, "humidity": 60, "radiation": 6.0, "precipitation": 710},
+    "Nairobi, Quénia": {"temp": 19.0, "humidity": 65, "radiation": 5.8, "precipitation": 900},
+    "Adis Abeba, Etiópia": {"temp": 16.0, "humidity": 61, "radiation": 5.9, "precipitation": 1180},
+    "Acra, Gana": {"temp": 27.0, "humidity": 78, "radiation": 5.2, "precipitation": 810},
+    "Argel, Argélia": {"temp": 18.0, "humidity": 69, "radiation": 5.5, "precipitation": 680},
+    "Casablanca, Marrocos": {"temp": 18.0, "humidity": 72, "radiation": 5.3, "precipitation": 430},
+    "Luanda, Angola": {"temp": 24.5, "humidity": 77, "radiation": 5.1, "precipitation": 320}
+  },
+  "asia_capitals": {
+    "Tóquio, Japão": {"temp": 16.0, "humidity": 63, "radiation": 4.2, "precipitation": 1530},
+    "Pequim, China": {"temp": 12.5, "humidity": 56, "radiation": 4.8, "precipitation": 570},
+    "Nova Deli, Índia": {"temp": 25.0, "humidity": 60, "radiation": 5.8, "precipitation": 790},
+    "Jacarta, Indonésia": {"temp": 27.5, "humidity": 75, "radiation": 5.0, "precipitation": 1800},
+    "Manila, Filipinas": {"temp": 27.5, "humidity": 77, "radiation": 5.2, "precipitation": 2000},
+    "Banguecoque, Tailândia": {"temp": 28.5, "humidity": 73, "radiation": 5.5, "precipitation": 1500},
+    "Seul, Coreia do Sul": {"temp": 12.5, "humidity": 64, "radiation": 4.5, "precipitation": 1370},
+    "Ancara, Turquia": {"temp": 12.0, "humidity": 62, "radiation": 5.0, "precipitation": 400},
+    "Teerão, Irão": {"temp": 17.5, "humidity": 45, "radiation": 5.8, "precipitation": 230},
+    "Riade, Arábia Saudita": {"temp": 26.0, "humidity": 33, "radiation": 6.8, "precipitation": 100}
+  },
+  "south_america_capitals": {
+    "São Paulo, Brasil": {"temp": 19.5, "humidity": 76, "radiation": 4.8, "precipitation": 1440},
+    "Buenos Aires, Argentina": {"temp": 17.5, "humidity": 72, "radiation": 4.9, "precipitation": 1150},
+    "Lima, Peru": {"temp": 19.0, "humidity": 81, "radiation": 5.2, "precipitation": 10},
+    "Bogotá, Colômbia": {"temp": 14.0, "humidity": 77, "radiation": 4.5, "precipitation": 1040},
+    "Santiago, Chile": {"temp": 14.5, "humidity": 70, "radiation": 5.5, "precipitation": 340},
+    "Caracas, Venezuela": {"temp": 21.5, "humidity": 72, "radiation": 5.3, "precipitation": 900},
+    "Quito, Equador": {"temp": 13.5, "humidity": 75, "radiation": 5.0, "precipitation": 1200},
+    "La Paz, Bolívia": {"temp": 9.0, "humidity": 58, "radiation": 6.2, "precipitation": 575},
+    "Assunção, Paraguai": {"temp": 23.0, "humidity": 68, "radiation": 5.2, "precipitation": 1400},
+    "Montevideu, Uruguai": {"temp": 16.5, "humidity": 74, "radiation": 4.7, "precipitation": 1100}
+  },
+  "north_america_capitals": {
+    "Washington DC, EUA": {"temp": 14.5, "humidity": 64, "radiation": 4.5, "precipitation": 1020},
+    "Cidade do México, México": {"temp": 16.5, "humidity": 58, "radiation": 5.8, "precipitation": 820},
+    "Ottawa, Canadá": {"temp": 6.5, "humidity": 70, "radiation": 3.8, "precipitation": 940},
+    "Havana, Cuba": {"temp": 25.5, "humidity": 78, "radiation": 5.5, "precipitation": 1200},
+    "São José, Costa Rica": {"temp": 20.5, "humidity": 77, "radiation": 5.0, "precipitation": 1900},
+    "Panamá, Panamá": {"temp": 27.0, "humidity": 79, "radiation": 5.2, "precipitation": 1900},
+    "São Salvador, El Salvador": {"temp": 24.0, "humidity": 73, "radiation": 5.5, "precipitation": 1780},
+    "Tegucigalpa, Honduras": {"temp": 21.0, "humidity": 70, "radiation": 5.4, "precipitation": 1000},
+    "Manágua, Nicarágua": {"temp": 27.0, "humidity": 71, "radiation": 5.6, "precipitation": 1140},
+    "Cidade da Guatemala, Guatemala": {"temp": 19.0, "humidity": 74, "radiation": 5.3, "precipitation": 1300}
+  },
+  "oceania_capitals": {
+    "Camberra, Austrália": {"temp": 13.0, "humidity": 60, "radiation": 5.5, "precipitation": 620},
+    "Wellington, Nova Zelândia": {"temp": 13.0, "humidity": 77, "radiation": 4.2, "precipitation": 1250},
+    "Port Moresby, Papua Nova Guiné": {"temp": 26.5, "humidity": 77, "radiation": 5.0, "precipitation": 1010},
+    "Suva, Fiji": {"temp": 25.0, "humidity": 79, "radiation": 5.2, "precipitation": 3000},
+    "Honiara, Ilhas Salomão": {"temp": 27.0, "humidity": 80, "radiation": 5.0, "precipitation": 2000},
+    "Port Vila, Vanuatu": {"temp": 24.5, "humidity": 78, "radiation": 5.3, "precipitation": 2360},
+    "Apia, Samoa": {"temp": 26.5, "humidity": 79, "radiation": 5.1, "precipitation": 2900},
+    "Nukualofa, Tonga": {"temp": 23.5, "humidity": 76, "radiation": 5.4, "precipitation": 1700},
+    "Tarawa, Quiribáti": {"temp": 28.0, "humidity": 77, "radiation": 5.5, "precipitation": 2100},
+    "Majuro, Ilhas Marshall": {"temp": 27.5, "humidity": 78, "radiation": 5.4, "precipitation": 3300}
+  }
+}
+
